@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-hd-bg-main: #0A0C10;
+  --color-hd-bg-panel: #0D1117;
+  --color-hd-bg-card: #161B22;
+  --color-hd-bg-code: #010409;
+  --color-hd-blue: #3081F7;
+  --color-hd-blue-light: #58A6FF;
+  --color-hd-green: #238636;
+  --color-hd-green-hover: #2EA043;
+  --color-hd-red: #F85149;
+  --color-hd-border: #30363D;
+  --color-hd-border-sub: #161B22;
+  --color-hd-text: #E6EDF3;
+  --color-hd-muted: #7D8590;
+  --color-hd-yellow: #D29922;
+  --color-hd-purple: #D2A8FF;
+}
+
+/* Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
+
+.animate-shake {
+  animation: shake 0.2s ease-in-out;
+}

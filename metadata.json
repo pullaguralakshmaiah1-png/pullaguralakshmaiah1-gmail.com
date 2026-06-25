@@ -1,0 +1,6 @@
+{
+  "name": "Python Quiz Website",
+  "description": "An online interactive, AI-powered Python quiz website with real-time feedback, code sandbox, and AI explanations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
